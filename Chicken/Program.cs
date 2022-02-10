@@ -25,6 +25,7 @@ namespace Chicken
     {
         bool born = false;
         Func<IBird> create;
+
         public Egg(Func<IBird> createBird)
         {
             create = createBird;
